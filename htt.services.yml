@@ -1,0 +1,6 @@
+services:
+  redirect:
+     class: Drupal\htt\EventSubscriber\HttSubscriber
+     arguments: [] # ['@current_user']
+     tags:
+       - { name: event_subscriber }

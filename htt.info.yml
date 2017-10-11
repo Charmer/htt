@@ -1,0 +1,6 @@
+name: Hierarchical taxonomy token
+description: 'Provide token for hierarchical taxonomy field in nodes'
+type: module
+core: 8.x
+version: 1
+package: Other
